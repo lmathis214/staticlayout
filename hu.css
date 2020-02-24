@@ -1,0 +1,15 @@
+.containerone {
+  background: yellow;
+  padding: 50px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  column-gap: 20px;
+}
+
+#one {
+  background: red;
+}
+
+#two {
+  background: purple;
+}
