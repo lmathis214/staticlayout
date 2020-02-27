@@ -1,15 +1,149 @@
-.containerone {
-  background: yellow;
-  padding: 50px;
+body {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+.logo {
+  padding-top: 75px;
+  margin-top: 4px;
+  object-fit: contain;
+}
+
+.log {
+  text-align: right;
+  padding-top: 23px;
+  padding-bottom: 17px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  margin-right: 50px;
+  padding-top: 23px;
+  padding-bottom: 17px;
+}
+
+a:link {
+  color: white;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  text-decoration: none;
+}
+a:hover {
+  color: lightgray;
+  text-decoration: none;
+}
+
+.maincontainer {
   display: grid;
-  grid-template-columns: 50% 50%;
-  column-gap: 20px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-auto-rows: minmax(50px, auto);
+  background-size: cover;
 }
 
-#one {
-  background: red;
+#freetrial {
+  /* border: 1px solid transparent; */
+  border-radius: 5px;
+  background-color: white;
+  padding: 12px 32px;
+  color: black;
+  margin: auto;
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 14px;
+  letter-spacing: 1px;
 }
 
-#two {
-  background: purple;
+.middle {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  row-gap: 100px;
+  text-align: center;
+}
+
+#allin {
+  font-size: 40px;
+  letter-spacing: -0.5px;
+  font-weight: lighter;
+}
+
+#premium {
+  font-size: 12px;
+}
+
+#trial {
+  font-size: 8px;
+}
+.ribbon {
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  background: linear-gradient(
+    318.68deg,
+    #0f495c 0%,
+    #0d3640 49.72%,
+    #08141f 100%
+  );
+}
+
+#rightthree {
+  text-align: center;
+  padding: 50px;
+}
+
+#middlethree {
+  padding: 15px;
+}
+
+#sports {
+  font-size: 12px;
+}
+
+#free {
+  color: green;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+#more {
+  font-size: 10px;
+  text-decoration: underline;
+  color: gray;
+  margin-top: -5px;
+}
+.button {
+  border: 2px solid white;
+  background: transparent;
+  border-radius: 5px;
+  padding: 12px 20px;
+  font-size: 12px;
+  font-weight: 600;
+  color: white;
+}
+
+#leftthree {
+  text-align: right;
+}
+
+.containertwo {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-auto-rows: minmax(10px, auto);
+  margin-top: -16px;
+}
+/* #leftfour {
+  background: pink;
+} */
+
+#middlefour {
+  grid-column: 2/3;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#terms {
+  font-size: 8px;
+  text-decoration: underline;
+  color: gray;
+  margin-top: -5px;
 }
