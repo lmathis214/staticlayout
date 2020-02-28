@@ -136,15 +136,11 @@ a#login:hover {
 
 .containertwo {
   display: grid;
-  grid-template-columns: auto;
+  grid-template-columns: 1fr;
   grid-auto-rows: minmax(10px, auto);
   margin-top: 0px;
-  margin-right: 150px;
-  background-size: cover;
+  margin-right: 200px;
 }
-/* #leftfour {
-  background: pink;
-} */
 
 #middlefour {
   grid-column: 2/3;
