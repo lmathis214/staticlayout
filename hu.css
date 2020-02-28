@@ -1,13 +1,18 @@
 body {
   color: white;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Graphik',Helvetica,Arial,sans-serif;
   margin: 0;
 }
 
-.logo {
-  padding-top: 75px;
-  margin-top: 4px;
-  object-fit: contain;
+#logo {
+  font-size: 26px;
+  font-weight: bolder;
+  font-family: Nunito;
+  /* padding-top: 5px; */
+  padding-bottom: 15px;
+  margin-top: -10px;
+  margin-bottom: 8px;
+  margin-left: 50px;
 }
 
 .log {
@@ -19,7 +24,7 @@ body {
   margin-right: 50px;
   padding-top: 23px;
   padding-bottom: 17px;
-}
+} */
 
 a:link {
   color: white;
@@ -57,7 +62,6 @@ a:hover {
 
 .middle {
   grid-column: 2/3;
-  grid-row: 2/3;
   row-gap: 100px;
   text-align: center;
 }
@@ -75,9 +79,10 @@ a:hover {
 #trial {
   font-size: 8px;
 }
-.ribbon {
+#ribbon {
   display: grid;
-  grid-template-columns: 30% 30% 30%;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 120px;
   background: linear-gradient(
     318.68deg,
     #0f495c 0%,
@@ -90,6 +95,7 @@ a:hover {
   text-align: center;
   padding: 50px;
 }
+
 
 #middlethree {
   padding: 15px;
@@ -119,6 +125,7 @@ a:hover {
   font-size: 12px;
   font-weight: 600;
   color: white;
+  margin-top: -20px;
 }
 
 #leftthree {
@@ -127,9 +134,11 @@ a:hover {
 
 .containertwo {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: auto;
   grid-auto-rows: minmax(10px, auto);
-  margin-top: -16px;
+  margin-top: 0px;
+  margin-right: 150px;
+  background-size: cover;
 }
 /* #leftfour {
   background: pink;
@@ -145,5 +154,5 @@ a:hover {
   font-size: 8px;
   text-decoration: underline;
   color: gray;
-  margin-top: -5px;
+  margin-top: -10px;
 }
